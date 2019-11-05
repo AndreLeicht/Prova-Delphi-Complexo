@@ -1,0 +1,37 @@
+unit uFrame;
+
+interface
+
+uses
+  uComponente, Vcl.Controls, System.Classes;
+
+type
+
+  TFrame = class(TComponente)
+  public
+    constructor CreateOCreate(AOwner: TComponent; aX, aY : Integer);
+  end;
+
+implementation
+
+constructor TFrame.CreateOCreate(AOwner: TComponent; aX, aY : Integer);//(aX, aY : Integer);
+begin
+  inherited Create(AOwner);
+  with self do
+  begin
+    X := aX;
+    Y := aY;
+
+    Altura  := 500;
+    Largura := 500;
+    Left   := X;
+    Top    := Y;
+    Width  := Largura;
+    Height := Altura;
+    //AutoSize := True;
+    Visible := True;
+  end;
+end;
+
+end.
+

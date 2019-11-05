@@ -1,0 +1,40 @@
+unit uBotao;
+
+interface
+
+uses
+  uComponente, VcL.StdCtrls, System.Classes;
+
+type
+
+  TBotao = class(TComponente)
+  private
+    FCaption: String;
+  public
+    constructor CreateO(AOwner: TComponent; aX, aY : Integer; aCaption : String);
+    property Caption: String read FCaption write FCaption;
+  end;
+
+implementation
+
+constructor TBotao.CreateO(AOwner: TComponent; aX, aY : Integer; aCaption : String);
+begin
+  inherited Create(AOwner);
+
+  with self do
+  begin
+    Caption := aCaption;
+    Top     := aY;
+    Left    := aX;
+    X       := aX;
+    Y       := aY;
+    Altura  := 20;
+    Largura := 100;
+    Width  := Largura;
+    Height := Altura;
+    Visible := True;
+  end;
+end;
+
+end.
+

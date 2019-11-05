@@ -1,0 +1,24 @@
+unit uMemo;
+
+interface
+
+uses
+  uComponente;
+
+type
+
+  TMemo = class(TComponente)
+  public
+//    constructor create(aX, aY : Integer);
+  end;
+
+implementation
+
+{constructor TMemo.create(aX, aY : Integer);
+begin
+  self.X := aX;
+  self.Y := aY;
+end;
+      }
+end.
+

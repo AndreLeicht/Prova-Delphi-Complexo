@@ -1,0 +1,32 @@
+unit uBotao;
+
+interface
+
+uses
+  uComponente;
+
+type
+
+  TBotao = class(TComponente)
+  private
+    FCaption: String;
+  public
+    //constructor create(aX, aY : Integer; aCaption : String);
+    property Caption: String read FCaption write FCaption;
+  end;
+
+implementation
+
+{constructor TBotao.create(aX, aY : Integer; aCaption : String);
+begin
+
+  with self do
+  begin
+    Caption := 'Teste';
+    //Top := 8;
+    //Left := 8;
+  end;
+end; }
+
+end.
+

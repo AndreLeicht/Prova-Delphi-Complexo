@@ -1,0 +1,48 @@
+unit Complexo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,VcL.StdCtrls, uComponente, uFrame, uBotao, uLabel, uMemo ;
+
+type
+  TForm1 = class(TForm)
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.FormShow(Sender: TObject);
+var
+  Frame  : TFrame;
+  button : Tbotao;
+  oLabel : TLabel;
+  Memo   : TMemo;
+begin
+  Frame := TFrame.CreateOCreate(Self, 0,0);
+  Frame.Parent := Form1;
+  InsertControl(Frame);
+
+  Button := TBotao.CreateO(Form1, 50, 150, 'Botao');
+  Button.Parent := Form1;
+  Frame.AdicionaComponente(Button);
+
+  oLabel := TLabel.CreateO(Frame, 8, 8, 'Label');
+  Frame.AdicionaComponente(oLabel);
+
+  Memo := TMemo.CreateO(Frame, 8, 30, 200, 200);
+  Frame.AdicionaComponente(Memo);
+
+end;
+
+end.

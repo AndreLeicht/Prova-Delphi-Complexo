@@ -1,0 +1,24 @@
+unit uLabel;
+
+interface
+
+uses
+  uComponente;
+
+type
+
+  TLabel = class(TComponente)
+  public
+//    constructor create(aX, aY : Integer);
+  end;
+
+implementation
+
+{constructor TLabel.create(aX, aY : Integer);
+begin
+  self.X := aX;
+  self.Y := aY;
+end;
+       }
+end.
+

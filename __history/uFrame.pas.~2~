@@ -1,0 +1,32 @@
+unit uFrame;
+
+interface
+
+uses
+  uComponente;
+
+type
+
+  TFrame = class(TComponente)
+  public
+    constructor create(aX, aY : Integer);
+  end;
+
+implementation
+
+constructor TFrame.create(aX, aY : Integer);
+begin
+  inherited
+  self.X := aX;
+  self.Y := aY;
+  //self.Componentes :=  TComponente as [TFrame];
+  self.Altura  := 200;
+  self.Largura := 200;
+  self.Left   := self.X;
+  self.Top    := self.Y;
+  self.Width  := self.Largura;
+  self.Height := self.Altura;
+end;
+
+end.
+

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/11/04 19:42:42.000.027,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/04 19:43:17.000.450,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\Complexo.dfm=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/11/04 19:43:17.000.450,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\Complexo.pas=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/04 19:44:54.000.404,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uFrame.pas</Transaction>
+    <Transaction>2019/11/04 19:44:54.000.414,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uLabel.pas</Transaction>
+    <Transaction>2019/11/04 19:44:54.000.423,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uMemo.pas</Transaction>
+    <Transaction>2019/11/04 19:44:54.000.395,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uComponente.pas</Transaction>
+    <Transaction>2019/11/04 19:44:54.000.386,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uBotao.pas</Transaction>
+    <Transaction>2019/11/04 19:46:00.000.540,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uMemo.pas=</Transaction>
+    <Transaction>2019/11/04 19:46:00.000.653,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uComponente.pas=</Transaction>
+    <Transaction>2019/11/04 19:46:00.000.641,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uFrame.pas=</Transaction>
+    <Transaction>2019/11/04 19:46:00.000.663,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uBotao.pas=</Transaction>
+    <Transaction>2019/11/04 19:46:00.000.605,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uLabel.pas=</Transaction>
+    <Transaction>2019/11/04 19:47:18.000.078,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uComponente.pas</Transaction>
+    <Transaction>2019/11/04 19:47:18.000.088,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uFrame.pas</Transaction>
+    <Transaction>2019/11/04 19:47:18.000.068,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uBotao.pas</Transaction>
+    <Transaction>2019/11/04 19:47:18.000.098,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uLabel.pas</Transaction>
+    <Transaction>2019/11/04 19:47:18.000.107,=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\uMemo.pas</Transaction>
+    <Transaction>2019/11/04 19:55:55.000.611,C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Complexo\PComplexo.dproj=C:\Users\cliente\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
